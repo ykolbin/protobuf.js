@@ -1,5 +1,25 @@
 # Changelog
 
+## [7.0.0](https://www.github.com/protobufjs/protobuf.js/compare/v6.10.2...v7.0.0) (2021-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* move command line tool to a new package named protobufjs-cli (#1234)
+* encoding of empty Buffers (#1514)
+
+### Features
+
+* add --no-service option for pbjs static target ([#1577](https://www.github.com/protobufjs/protobuf.js/issues/1577)) ([d01394a](https://www.github.com/protobufjs/protobuf.js/commit/d01394a1463062824c066b653aad53c449752202))
+* move command line tool to a new package named protobufjs-cli ([#1234](https://www.github.com/protobufjs/protobuf.js/issues/1234)) ([da34f43](https://www.github.com/protobufjs/protobuf.js/commit/da34f43ccd51ad97017e139f137521782f5ef119))
+* proto3 optional support ([#1584](https://www.github.com/protobufjs/protobuf.js/issues/1584)) ([6c4d307](https://www.github.com/protobufjs/protobuf.js/commit/6c4d30716a9a756dcdc21d64f9c9d069315fc5b1))
+
+
+### Bug Fixes
+
+* encoding of empty Buffers ([#1514](https://www.github.com/protobufjs/protobuf.js/issues/1514)) ([b4cae07](https://www.github.com/protobufjs/protobuf.js/commit/b4cae07440387399e097058e15e50608a0e764fd)), closes [#1500](https://www.github.com/protobufjs/protobuf.js/issues/1500) [#885](https://www.github.com/protobufjs/protobuf.js/issues/885)
+* typo in pbjs help text ([#1552](https://www.github.com/protobufjs/protobuf.js/issues/1552)) ([7f46dbe](https://www.github.com/protobufjs/protobuf.js/commit/7f46dbeb538a6277035a896e1ab5e1a070e28681))
+
 ### [6.10.2](https://www.github.com/protobufjs/protobuf.js/compare/v6.10.1...v6.10.2) (2020-11-13)
 
 
